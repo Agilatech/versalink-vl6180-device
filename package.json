@@ -1,6 +1,6 @@
 {
   "name": "@agilatech/versalink-vl6180-device",
-  "version": "0.8.0",
+  "version": "1.0.0",
   "description": "VL6180 distance/proximity device driver for use in the Agilatech VersaLink system",
   "main": "vl6180-scout.js",
   "repository": {
