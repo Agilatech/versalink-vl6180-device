@@ -1,5 +1,4 @@
-
-const VersalinkDevice = require('@agilatech/versalink-device');
+const VersalinkDevice = require(process.versalink.device);
 const device = require('@agilatech/vl6180');
 
 module.exports = class Vl6180 extends VersalinkDevice {

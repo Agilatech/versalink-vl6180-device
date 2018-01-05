@@ -3,30 +3,20 @@
   "version": "0.8.0",
   "description": "VL6180 distance/proximity device driver for use in the Agilatech VersaLink system",
   "main": "vl6180-scout.js",
-  "directories": {
-    "example": "example"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "ssh://scott@209.200.216.6:22125/volume1/git_repos/versalink-vl6180-device"
+    "url": "git+https://github.com/Agilatech/versalink-vl6180-device"
   },
   "keywords": [
     "sensor",
     "distance",
     "proximity",
     "light",
-    "lux",
-    "beaglebone",
-    "raspberry pi"
+    "lux"
   ],
   "author": "Agilatech <scott@agilatech.com> (http://agilatech.com)",
-  "license": "SEE LICENSE in LICENSE",
+  "license": "MIT",
   "dependencies": {
-    "@agilatech/versalink-device": "*",
-    "zetta-scout": "*",
     "@agilatech/vl6180": "*"
   }
 }
